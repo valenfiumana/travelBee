@@ -228,17 +228,16 @@ $ npm run dev
 
 ## :busts_in_silhouette: Authors
 
-- **Del Litto**, Segundo [@segudellito](https://www.github.com/segudl01) - 
 - **Fiumana**, Valentina [@valenfiumana](https://www.github.com/valenfiumana)
-- **Marienhoff**, Iván [@ivanM](https://github.com/ivanhoff)
-- **Toledo**, Máximo [@Maximo78](https://www.github.com/ejemplopersona)
 - **Urriza**, Gisela [@Gigi-U](https://www.github.com/Gigi-U)
+- **Marienhoff**, Iván [@ivanM](https://github.com/ivanhoff)
+- **Del Litto**, Segundo [@segudellito](https://www.github.com/segudl01) - 
 
 <br/> 
 
 
 
-Made with :heart: by <a href="https://github.com/" target="_blank">Gisela Urriza</a>, <a href="https://github.com/" target="_blank">Maximiliano Toledo</a>, <a href="https://github.com/" target="_blank">Iván Marienhoff</a>, <a href="https://github.com/valenfiumana" target="_blank">Valentina Fiumana</a> & <a href="https://github.com/" target="_blank">Segundo Del Litto</a>
+Made with :heart:
 
 &#xa0;
 
