@@ -1,0 +1,271 @@
+div.Search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 175px;
+  background-image: url('https://travel-bee-images.s3.us-east-2.amazonaws.com/backgrounds/search.jpeg');
+  background-size: cover;
+  background-position: 20% 40%;
+  width: 100vw;
+}
+
+.chInChOut{
+  display: flex;
+  flex-direction: row;
+}
+
+.chInChOut p {
+  display: none;
+}
+
+div.Search form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 600px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 10px 15px 15px 15px;
+  flex-direction: row;
+}
+
+div.searchInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 650px;
+  /* border-radius: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px); */
+}
+
+div.Search h1 {
+  font-size: 2.5em;
+  color: white;
+  margin: 0;
+}
+
+div.searchInputs input {
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+div.ant-picker.ant-picker-range {
+  border-radius: 5px;
+  border: none;
+  margin: 0 3px 0 0;
+}
+
+div.searchInputs input.cities {
+  height: 43px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 8px;
+  text-align: left;
+}
+div.searchInputs input::placeholder {
+  color: grey;
+}
+
+div.searchInputs button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 43px;
+  width: 43px;
+  border-radius: 25px;
+  margin: 0 8.75px 0 0;
+  background-color: var(--yellow);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+div.searchInputs button span {
+  margin: 0;
+}
+
+div.searchInputs button:hover {
+  transform: scale(1.39534884);
+}
+
+div.searchInputs button:active {
+  transform: scale(0.9);
+}
+
+div.Search .vl {
+  border-left: 1px solid lightgray;
+  height: 40px;
+}
+
+span.anticon {
+  margin: 0 3px 0 18px;
+}
+
+.destino span.anticon {
+  margin: 0 3px 0 18px
+}
+
+.destino {
+  display: flex;
+  align-items: center;
+}
+
+span .anticon-swap-right {
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+
+  div.Search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 175px;
+    background-image: url('https://images6.alphacoders.com/115/1158899.jpg');
+    background-size: cover;
+    background-position: 20% 40%;
+  }
+
+  .chInChOut p{
+    display: block;
+    text-align: center;
+  }
+  
+  div.Search form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color:unset;
+    margin: 10px 10px 15px 10px;
+  }
+  
+  div.searchInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+  }
+  
+  .destino{
+    background-color: white;
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+  }
+
+  div.Search h1 {
+    font-size: 2.5em;
+    color: white;
+    margin: 0;
+  }
+
+  
+  div.ant-picker.ant-picker-range {
+    border: none;
+    width: 350px;
+  }
+
+  .vl{
+    display: none;
+  }
+
+  .chInChOut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div.searchInputs input.cities {
+    height: 35px;
+    width: 300px;
+    border: none;
+    text-align: left;
+  }
+  div.searchInputs input::placeholder {
+    color: grey;
+  }
+  
+  div.searchInputs button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 43px;
+    width: 100px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: var(--yellow);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+  }
+  
+  div.searchInputs button p {
+    margin: 5px;
+  }
+  
+  div.Search h1{
+    font-size: 1.5em;
+  }
+
+  div.Search form{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 190px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  div.Search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+  }
+
+  div.ant-picker.ant-picker-range {
+    border-radius: 2rem;
+    border: 0.1rem solid rgba(148, 142, 142, 0.223);
+    margin-bottom: 5px;
+  }
+
+  div.ant-picker.ant-picker-range div.vl {
+    display: none;
+  }
+
+  span.anticon{
+    margin: 4px 0 5px 0;
+  }
+
+  div.searchInputs button {
+    margin-top: 10px;
+  }
+
+  div.ant-picker-panels {
+   flex-direction: column;
+  }
+}

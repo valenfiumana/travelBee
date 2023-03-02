@@ -1,0 +1,39 @@
+.Description {
+    display: flex;
+    width: 100%;
+    padding: 0 5vw;
+    min-height:fit-content;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.Description h2 {
+    color: var(--gray);
+    width: 100%;
+    border-bottom: 3px solid var(--yellow);
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.Description p {
+    color: var(--middle-gray);
+    padding-left: 30px;
+    text-align: left;
+}
+
+@media all and (max-width:800px){
+
+    .Description {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .Description p {
+        color: var(--middle-gray);
+        margin-top: 10px;
+        padding-left: 10px;
+        text-align: left;
+        margin: 0rem 0rem;
+    }
+}

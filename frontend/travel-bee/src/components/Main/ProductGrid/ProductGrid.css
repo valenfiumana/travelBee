@@ -1,0 +1,16 @@
+div.ProductGrid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 250px;
+    width: 100vw;
+    max-width: calc(90vw + 40px);
+
+}
+
+@media screen and (max-width: 620px) {
+    div.ProductGrid {
+        justify-content: space-evenly;
+    }
+}

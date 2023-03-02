@@ -1,0 +1,43 @@
+.CategoryIcon {
+    border-bottom: 3px solid white;
+    opacity: 0.5;
+    transition: all 300ms;
+}
+
+div.CategoryIcon button {
+    background-color: white;
+    width: 70px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+div.Categories p {
+    margin: 3px;
+}
+
+.CategoryIcon:hover {
+    opacity: 1;
+    border-bottom: 3px solid var(--light-gray);
+}
+
+div.icons-container .selected-category:hover {
+    opacity: 1;
+}
+
+.CategoryIcon button:active {
+    transform: scale(0.9);
+}
+
+.CategoryIcon.selected-category {
+    opacity: 1;
+    border-bottom: 3px solid var(--gray);
+}
+
+.CategoryIcon.selected-category button{
+    cursor: default;
+}

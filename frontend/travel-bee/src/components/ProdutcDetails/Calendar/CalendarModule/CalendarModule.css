@@ -1,0 +1,51 @@
+.CalendarModule {
+    display: flex;
+    flex-direction: column;
+}
+
+.rdp {
+    margin: 0;
+    --rdp-cell-size: 50px;
+    --rdp-accent-color: var(--yellow);
+    --rdp-background-color: #efbb0086;
+    /* Outline border for focused elements */
+    --rdp-outline: 2px solid var(--rdp-accent-color);
+    /* Outline border for focused and selected elements */
+    --rdp-outline-selected: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+.rdp-day_selected {
+    font-weight: 700;
+}
+
+.rdp .rdp-day_today {
+    font-size: 19px;
+}
+
+.CalendarModule h4 {
+    text-decoration: underline;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    align-self: flex-end;
+    padding: 5px 8px;
+    margin-top: 8px;
+    margin-right: 10px;
+    transition: all 200ms;
+}
+
+.CalendarModule h4:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.CalendarModule h4:active {
+    scale: 0.95;
+}
+
+@media (max-width: 768px) {
+    .rdp {
+        margin: 0;
+        --rdp-cell-size: 45px;
+    }
+}

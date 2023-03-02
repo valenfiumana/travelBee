@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;700;900&family=Poppins:wght@400;500;700&display=swap');
+
+.registro-container {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin: 3rem 0rem;
+  background-image: url('https://travel-bee-images.s3.us-east-2.amazonaws.com/backgrounds/register.jpeg');
+}
+.titulo-registro{
+  background-color: white;
+  padding: 1.5vh 15vh;
+  border-radius: 3vh;
+  margin: 10vh 0 7vh 0;
+  position: relative;
+}
+.registro-container h1{
+  font-family: 'Inter';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 3em;
+  letter-spacing: -0.06em;
+  color: black;
+  margin-bottom: -1vh;
+}
+
+
+.registro-container button {
+  border: none;
+  background-color: rgb(0, 0, 0);
+  padding: 1.5vh 5vh;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 1.5rem 0 1.5rem 0;
+  transition: all 350ms;
+}
+
+.registro-container button:hover {
+  background-color: #FBC02D;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.registro-container button:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 0 0;
+}
+
+.titulo-registro{
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-container .ingresar{
+  color: black;
+  margin-top: -2vh;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+
+.registro-container label {
+  font-family: 'Inter';
+  text-align: left;
+  padding: 0.5rem 0;
+  color: black;
+  font-weight: 500;
+  margin: 0.5vh 0 -1.5vh 0;
+}
+
+.registro-container input {
+  margin: 0.5rem;
+  padding: 0.7rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: 'Inter';
+}
+
+form .close-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+
+  body{
+    padding: auto;
+  }
+
+  .registro-container h1{
+    font-size: 2.5em;
+    margin-bottom: 2vh;
+  }
+  .titulo-registro{
+    padding: 3vh;
+    margin: 2rem;
+  }
+
+  .registro-container h1{
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.06em;
+    color: black;
+    margin-bottom: -1vh;
+  }
+  
+  
+  .registro-container button {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    padding: 1.5vh 5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  .registro-container button:hover {
+    background-color: #FBC02D;
+    text-decoration: none;
+    transition: 0.7s;
+  }
+  
+  .titulo-registro{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registro-container .ingresar{
+    color: black;
+    font-family: Inter;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  
+  
+  .registro-container label {
+    font-family: 'Inter';
+    text-align: left;
+    padding: 0.5rem 0;
+    color: black;
+    font-weight: 500;
+    margin: 0.5vh 0 -1.5vh 0;
+  }
+  
+  .registro-container input {
+    margin: 0.5rem;
+    padding: 0.7rem;
+    border: 2px solid black;
+    border-radius: 10px
+  }
+
+  .registro-container{
+    margin-top: 4rem;
+  }
+}

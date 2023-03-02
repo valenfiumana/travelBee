@@ -1,0 +1,49 @@
+.Reserve {
+    padding-top: 80px;
+}
+
+.Reserve .reserve-data {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5vw;
+}
+
+.Reserve .reserve-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Reserve .Policies {
+    width: 58vw;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.Reserve .Map {
+    width: 58vw;
+    padding: 0;
+    padding-bottom: 80px;
+    z-index: 1;
+}
+
+@media (max-width: 850px) {
+
+    .Reserve .reserve-data {
+        flex-direction: column;
+    }
+
+    .Reserve .Policies {
+        width: 100%;
+        padding: 0px;
+        margin-top: 25px;
+    }
+    
+    .Reserve .Map {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 0px;
+    }
+}

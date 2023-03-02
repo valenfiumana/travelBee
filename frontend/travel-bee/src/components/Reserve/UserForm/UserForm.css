@@ -1,0 +1,77 @@
+.UserForm {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 58vw;
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.UserForm .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.UserForm .input {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 48%;
+}
+
+.UserForm .input label {
+    color: var(--gray);
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.UserForm .input input {
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 12px;
+    outline: 2px solid rgb(235, 235, 235) ;
+}
+
+.UserForm .input input.city {
+    outline: 2px solid var(--yellow);
+}
+
+.UserForm .input input.disabled{
+    background-color: rgb(235, 235, 235);
+}
+
+::placeholder { /* Recent browsers */
+    text-transform: none;
+}
+
+@media (max-width: 850px) {
+
+    .UserForm {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .UserForm {
+        height: auto;
+    }
+
+    .UserForm .container {
+        flex-direction: column;
+    }
+
+    .UserForm .input {
+        width: 100%;
+    }
+
+    .UserForm .input label {
+        margin-bottom: 4px;
+        margin-top: 12px;
+    }
+}

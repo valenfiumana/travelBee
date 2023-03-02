@@ -1,0 +1,184 @@
+.ReserveDetails {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 28vw;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: sticky;
+    top: 90px;
+    margin-bottom: 40px;
+}
+
+.ReserveDetails .reserve-header h2 {
+    color: var(--gray);
+    font-size: 24px;
+    margin: 12px 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.ReserveDetails img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 10%; 
+}
+
+
+.ReserveDetails .reserve-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: auto;
+    padding: 0 15px;
+}
+
+.ReserveDetails .reserve-details h2 {
+    color: var(--gray);
+    font-size: 24px;
+    font-weight: 600;
+    margin: -3px 0 0 0;
+    text-align: left;
+}
+
+.ReserveDetails .reserve-details > h3 {
+    height: 20px;
+    color: var(--gray);
+    opacity: 0.8;
+    margin: 0;
+    text-align: left;
+}
+
+.ReserveDetails .reserve-location {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ReserveDetails .reserve-location span {
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+.ReserveDetails .reserve-location span svg {
+    margin: 0;
+    fill: var(--middle-gray);
+}
+
+.ReserveDetails .reserve-location h3 {
+    color: var(--middle-gray);
+    margin-left: 8px;
+    text-align: left;
+}
+
+.ReserveDetails .dates-range {
+    margin-top: 20px;
+}
+
+.ReserveDetails .dates-range > div {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-top: 1px solid var(--light-gray);
+}
+
+.ReserveDetails .dates-range .check-out {
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.ReserveDetails .dates-range h4 {
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ReserveDetails .dates-range h3 {
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ReserveDetails div.price {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.ReserveDetails div.price > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReserveDetails div.price > div p:nth-child(n+2) {
+    width: 90px;
+    text-align: right;
+}
+
+.ReserveDetails div.price > div:nth-child(3) p{
+    font-weight: bolder;
+}
+
+.ReserveDetails div.price p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ReserveDetails button {
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 35px;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--yellow);
+    transition: all 300ms;
+}
+
+.ReserveDetails button:hover {
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+.ReserveDetails button:active {
+    transform: scale(0.97);
+    box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 850px) {
+
+    .ReserveDetails {
+        width: 100%;
+        height: 820px;
+        margin-top: 30px;
+        position: unset;
+        top: unset;
+        margin-bottom: 80px;
+        height: 900px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .ReserveDetails {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .ReserveDetails button {
+        margin: 25px auto;
+    }
+
+    .ReserveDetails .dates-range > div {
+        height: 60px;
+    }
+}

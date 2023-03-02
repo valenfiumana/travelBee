@@ -1,0 +1,100 @@
+.Amenities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 5vw;
+}
+
+.Amenities h2 {
+    color: var(--gray);
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 3px solid var(--yellow);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Amenities ul {
+    height: 140px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.Amenities ul li {
+    display: flex;
+    width: 20vw;
+}
+
+.Amenities ul li img{
+    height: 24px;
+    margin-right: 10px;
+}
+
+.Amenities ul li p{
+    display: flex;
+    height: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.amenities{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .Amenities ul li {
+        display: flex;
+        width: 45%;
+        margin: 0.2rem;
+    }
+
+    .Amenities ul {
+        height: auto;
+        padding-left: 4px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Amenities {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    
+    .Amenities h2 {
+        color: var(--gray);
+        width: 100%;
+        margin-bottom: 15px;
+        border-bottom: 3px solid var(--yellow);
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    
+    .Amenities ul li img{
+        height: 25px;
+        display: flex;
+    }
+    
+    .Amenities ul li p{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        font-size: 11px;
+    }
+    
+    .amenitiesItem{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin: 0.3rem;
+    }
+}

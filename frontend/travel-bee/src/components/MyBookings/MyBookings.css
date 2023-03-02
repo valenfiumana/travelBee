@@ -1,0 +1,127 @@
+.MyBookings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.MyBookings .pagetitle{
+    margin: 5vh 0 0 0;
+    font-size: 2em;
+}
+
+.errorName{
+    margin-top: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.imgError{
+    width: 200px;
+    position: relative;
+    left: 18vh;
+    margin-top: 1rem; 
+    opacity:0.7;
+    display: flex;
+}
+
+.booking-container{
+    align-items: center;
+}
+
+.booking-container .description {
+    margin: 1vh 5vh 0 5vh !important;
+    text-align: left;
+    width: 100%;
+}
+
+.booking-container .img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.booking-container .img img {
+    width: 83vh !important;
+    height: 39vh !important;
+}
+
+
+@media screen and (max-width: 1026px) {
+    div.booking-container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 50vh;
+        height: 76vh;
+
+    }
+
+    .booking-container .img{
+        height: 60vh !important;
+        width: 100%;
+        position: relative;
+        bottom: 100px !important;
+    }
+
+    .booking-container .img img {
+        width: 80vh !important;
+        height: 45vh !important;
+    }
+
+    .booking-container .description{
+        margin: -13vh 5vh 1vh 5vh !important;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .booking-container h3{
+        width: 115%;
+        font-size: 1.5rem !important; 
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .datePlace .date{
+        margin: 0 0 0 0 !important;
+    }
+
+    .booking-container .description h3{
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px){
+
+    div.booking-container{
+        height: 75vh;
+    }
+
+    .booking-container .description {
+        margin: 1vh 6vh 3vh 6vh !important;
+    }
+
+    .booking-container .description h3{
+        width: 90%;
+    }
+
+    .booking-container .img img {
+        height: 45vh !important;
+    }
+
+    .booking-container .img{
+        height: 36vh;
+        width: 100%;
+        bottom: 0px !important;
+    }
+
+    .datePlace .date {
+        margin: 0 0 0 0 !important;
+        font-size: 1.2em;
+    }
+}

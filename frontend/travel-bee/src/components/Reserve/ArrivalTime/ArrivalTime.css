@@ -1,0 +1,74 @@
+.ArrivalTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 58vw;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px 40px;
+    color: var(--gray);
+}
+
+.ArrivalTime .title {
+    display: flex;
+    align-items: center;
+}
+
+.ArrivalTime .title h3 {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.ArrivalTime .title span{
+    margin: 0;
+}
+
+.ArrivalTime .hour-selection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ArrivalTime .hour-selection label{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.ArrivalTime .hour-selection select{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: solid 2px var(--yellow);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media (max-width: 850px) {
+
+    .ArrivalTime {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .ArrivalTime {
+        height: auto;
+        padding: 15px 10px ;
+    }
+
+    .ArrivalTime .title h3 {
+        text-align: left;
+    }
+
+    .ArrivalTime .hour-selection label{
+        margin: 10px auto;
+    }
+
+    .ArrivalTime .hour-selection select{
+        margin: 0 auto;
+    }
+}

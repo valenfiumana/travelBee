@@ -1,0 +1,130 @@
+.attributes-select .attributes-options {
+    /* background-color: aqua; */
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.attributes-options img{
+    height: 24px;
+    margin-right: 5px;
+    margin-left: 12px;
+}
+
+.attributes-options > div.amenity-option label{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.attributes-options > div input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.amenity-option label span.checkmark{
+    display: flex;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.attributes-options div.amenity-option .check {
+    width: 7px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 0 auto;
+    margin-top: 5px;
+    display: none;
+}
+ 
+.attributes-options div.amenity-option:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+
+.attributes-options div.amenity-option input:checked ~ .checkmark{
+    background-color: var(--yellow);
+}
+
+.attributes-options div.amenity-option input:checked ~ .checkmark .check{
+    display: block;
+}
+
+#add-amenites-btn {
+    color: var(--yellow);
+    background-color: none;
+    font-weight: 700;
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    border: var(--yellow) solid 2px;
+    border-radius: 10px;
+    margin: 20px auto 10px 0;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#add-amenites-btn:hover {
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+#add-amenites-btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 0 0 0;
+}
+
+input.icon_url:disabled, input.title:disabled{
+    background-color: rgba(84, 87, 118, 0.1);
+}
+
+
+@media (max-width: 850px) {
+
+    .attributes-select div.attributes-options .amenity-option {
+        width: 45%;
+    }
+
+    .attributes-select div.attributes-options .amenity-option label {
+        width: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .attributes-select .attributes-container {
+        /* background-color: aqua; */
+        border-radius: 0;
+        padding: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .attributes-select div.attributes-options .amenity-option {
+        width: 100%;
+    }
+
+    .attributes-select div.attributes-options .amenity-option label {
+        width: 100%;
+    }
+
+    .attributes-select .publication-attributes > div > div {
+        flex-direction: column;
+    }
+
+    button#add-amenites-btn {
+        width: 166px;
+    }
+}

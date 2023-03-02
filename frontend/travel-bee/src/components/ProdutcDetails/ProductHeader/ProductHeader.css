@@ -1,0 +1,36 @@
+
+.ProductHeader {
+    height: 70px;
+    width: 100vw;
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.ProductHeader .category-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+h4{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .ProductHeader {
+        height: auto;
+    }
+
+    .ProductHeader .category-title {
+        text-align: left;   
+    }
+    
+}

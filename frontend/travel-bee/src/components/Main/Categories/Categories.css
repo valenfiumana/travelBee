@@ -1,0 +1,18 @@
+div.Categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    background-color: white;
+    width: 100vw;
+}
+
+div.icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 15px;
+}

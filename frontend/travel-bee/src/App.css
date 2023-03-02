@@ -1,0 +1,10 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
