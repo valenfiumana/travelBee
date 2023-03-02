@@ -1,0 +1,87 @@
+stages:
+    - build-back-travel-bee
+    - deploy-back-travel-bee
+    - build-front-travel-bee
+    - deploy-front-travel-bee
+
+build:
+    stage: build-back-travel-bee
+    image:  maven:3.8.6-openjdk-18
+    script:
+        - echo "Building app..."
+        - cd "backend/travel-bee"
+        - mvn clean install
+        - echo "Finished building the app."
+    artifacts:
+        expire_in: 1 week
+        paths:
+            - "backend/travel-bee/target/"
+    only:
+        - finalIntegrador
+
+deploy:
+    stage: deploy-back-travel-bee
+    image: alpine:3.11
+    before_script:
+        - apk update && apk add openssh-client bash
+        - mkdir -p ~/.ssh
+        - eval $(ssh-agent -s)
+        - echo -e "$SSH_KEYPAR_PRIVATE"| tr -d '\r' | ssh-add - > /dev/null
+        - touch ~/.ssh/config
+        - echo -e "Host \n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+        - ssh-keyscan -H $SERVER_DEPLOYMENT_BACK_END_IP >> ~/.ssh/known_hosts
+    script:
+        - echo "Deploying started..."
+        - ssh ubuntu@$SERVER_DEPLOYMENT_BACK_END_IP "sudo /tmp/apache-tomcat-9.0.68/bin/shutdown.sh; sudo rm -r /tmp/apache-tomcat-9.0.68/webapps/*" 
+        - scp -i infraestructura/travel-bee-kp.pem "backend/travel-bee/target/travel-bee.war" ubuntu@$SERVER_DEPLOYMENT_BACK_END_IP:/tmp/apache-tomcat-9.0.68/webapps
+        - ssh ubuntu@$SERVER_DEPLOYMENT_BACK_END_IP "sudo /tmp/apache-tomcat-9.0.68/bin/startup.sh"
+        - echo "Finished deploying the app."
+    only:
+        - finalIntegrador
+    
+build-front-travel-bee:
+    stage: build-front-travel-bee
+    image: node:16.5.0
+    script:
+        - echo "Building app..."
+        - cd "frontend/travel-bee"
+        - apt-get update
+        - apt install nodejs -y
+        - apt-get install npm -y
+        - npm install
+        - npm install -y
+        - npm install react-responsive-carousel
+        - npm install react-day-picker
+        - npm install axios
+        - CI=false npm run build
+        - apt-get install zip
+        - apt-get install unzip
+        - cd dist; zip -r dist.zip *
+        - echo "Finished building the app."
+    artifacts:
+        expire_in: 1 week
+        paths:
+            - "frontend/travel-bee/dist"
+    only:
+        - finalIntegrador
+    timeout: 3 hours 30 minutes
+
+deploy-front-travel-bee:
+    stage: deploy-front-travel-bee
+    image: alpine:3.11
+    before_script:
+        - apk update && apk add openssh-client bash
+        - mkdir -p ~/.ssh
+        - eval $(ssh-agent -s)
+        - echo -e "$SSH_KEYPAR_PRIVATE"| tr -d '\r' | ssh-add - > /dev/null
+        - touch ~/.ssh/config
+        - echo -e "Host \n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+        - ssh-keyscan -H $SERVER_DEPLOYMENT_FRONT_END_IP >> ~/.ssh/known_hosts
+    script:
+        - echo "Deploying started..." 
+        - ssh ubuntu@$SERVER_DEPLOYMENT_FRONT_END_IP "sudo chmod -R 777 /var/www/html; sudo rm -r /var/www/html/*" 
+        - scp -i infraestructura/travel-bee-kp.pem "frontend/travel-bee/dist/dist.zip" ubuntu@$SERVER_DEPLOYMENT_FRONT_END_IP:/var/www/html
+        - ssh ubuntu@$SERVER_DEPLOYMENT_FRONT_END_IP "apt-get install zip; apt-get install unzip; cd /var/www/html/; sudo unzip /var/www/html/dist.zip; sudo /etc/init.d/apache2 restart"
+        - echo "Finished deploying the app"
+    only:
+        - finalIntegrador
