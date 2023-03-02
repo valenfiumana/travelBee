@@ -1,0 +1,261 @@
+{
+  "id": "6e7723d5-88a7-42ae-9db5-17945102f2e8",
+  "version": "2.0",
+  "name": "Travel Bee",
+  "url": "http://travelbee.sytes.net",
+  "tests": [{
+    "id": "307258e8-7833-4a6f-be6c-85e68303dab3",
+    "name": "Filtro ciudad",
+    "commands": [{
+      "id": "f525a791-8e64-4be5-91ba-79591a8b3939",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd31636d-659d-46c3-9ded-fe6d6798f5aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cities",
+      "targets": [
+        ["css=.cities", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ed6a01-5f0f-4a5b-a0a6-247cd53b8efb",
+      "comment": "",
+      "command": "type",
+      "target": "css=.cities",
+      "targets": [
+        ["css=.cities", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Cartagena, Bolívar, Colombia"
+    }, {
+      "id": "474d9783-1993-43fd-9c92-1274633c5d42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "424638dc-e040-44b3-90ed-5502f0221cf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img",
+      "targets": [
+        ["css=.img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/island1/mainIsland1.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/main/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c61eda6e-c55e-4c4a-bcbd-18aa3cef8a62",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > button",
+      "targets": [
+        ["css=a > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[3]/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc2db002-3441-4825-a691-7206dab1c08e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e7e83078-cb0c-483b-b9c5-c42bfcc791d1",
+    "name": "Filtro fechas",
+    "commands": [{
+      "id": "548c95ad-d70b-4ac8-8362-b9add5771f6d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ede761ec-5976-482a-8652-67b2732fda32",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55845cf2-938b-48be-a4ba-83151aeb3ecf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-input-active > input",
+      "targets": [
+        ["css=.ant-picker-input-active > input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87722a85-5741-462d-801d-f1300bd9e41b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-panel:nth-child(1) tr:nth-child(3) > .ant-picker-cell:nth-child(5) > .ant-picker-cell-inner",
+      "targets": [
+        ["css=.ant-picker-panel:nth-child(1) tr:nth-child(3) > .ant-picker-cell:nth-child(5) > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[3]/td[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c434bffd-ff47-41bc-af19-68a337e7cf54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-cell-range-hover-end > .ant-picker-cell-inner",
+      "targets": [
+        ["css=.ant-picker-cell-range-hover-end > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[4]/td[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbfa9e4f-b162-49cf-980f-cb38c7002d88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8d45d1d-e1a4-4143-b69e-b97aac729499",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ProductCard:nth-child(1) > .img",
+      "targets": [
+        ["css=.ProductCard:nth-child(1) > .img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/cabin2/cabin.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/main/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ee9af85e-1104-4b49-98d1-4b0408ceb931",
+    "name": "Filtro ciudad y fecha",
+    "commands": [{
+      "id": "d515e19c-618f-44d0-96c3-0179082ccd78",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a95b446-0382-4907-971b-7519a27f9ca9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b93b25fd-701e-4917-ac33-1499c9e6e62c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cities",
+      "targets": [
+        ["css=.cities", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49dd0e8-83b1-44e2-ab84-c2a5eb14417a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.cities",
+      "targets": [
+        ["css=.cities", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Laugnac, Francia"
+    }, {
+      "id": "3c9ee128-c21e-4fd2-a9ae-df3bd3b7a3ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-input-active > input",
+      "targets": [
+        ["css=.ant-picker-input-active > input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84f4ed00-db45-468c-8178-9486c0332d8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) > .ant-picker-cell-in-view:nth-child(4) > .ant-picker-cell-inner",
+      "targets": [
+        ["css=tr:nth-child(5) > .ant-picker-cell-in-view:nth-child(4) > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[5]/td[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c70a24f3-720f-4450-a366-fadd29ce0b99",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-picker-cell-range-hover-end > .ant-picker-cell-inner",
+      "targets": [
+        ["css=.ant-picker-cell-range-hover-end > .ant-picker-cell-inner", "css:finder"],
+        ["xpath=//tr[5]/td[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c7eb56-d8c6-4f48-bcaf-49a8747b52f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e992edb-9e09-4520-a6e2-63839dc5b471",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > button",
+      "targets": [
+        ["css=a > button", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[3]/div/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "853588d2-7487-4a49-b41d-b70b873b42b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "41a2f3c0-8fcd-41bf-8da2-950abb8e94d0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://travelbee.sytes.net/"],
+  "plugins": []
+}

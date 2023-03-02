@@ -1,0 +1,121 @@
+{
+	"id": "77a48a83-365f-4205-8b80-8b9000c849ee",
+	"values": [
+		{
+			"key": "token",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "baseUrl",
+			"value": "http://ec2-18-118-16-134.us-east-2.compute.amazonaws.com:8080/travel-bee",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "categoriesLength",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "citiesLength",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "featureID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "policyID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "categoryID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "cityID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "imgID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "productID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "roleID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "adminToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "linkNube",
+			"value": "http://18.118.16.134:8080/travel-bee/",
+			"enabled": true
+		},
+		{
+			"key": "userID",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "userToken",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "idUnexisting",
+			"value": "-7",
+			"enabled": true
+		},
+		{
+			"key": "randomEmail",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "randomUserEmail",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "userEmail",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-12-09T05:00:54.084Z",
+	"_postman_exported_using": "Postman/10.5.8"
+}

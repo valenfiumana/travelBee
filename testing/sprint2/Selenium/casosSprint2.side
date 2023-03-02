@@ -1,0 +1,287 @@
+{
+  "id": "9f8f2958-6e79-4ab0-a811-219b16529cc7",
+  "version": "2.0",
+  "name": "Casos de Prueba - Sprint 2 ",
+  "url": "http://127.0.0.1:5173/details/1",
+  "tests": [{
+    "id": "0cb1791b-aafd-48ba-9855-47e964163c0e",
+    "name": "Sprint 2 id: 24-25-26-27-28-29 -35 -36 - 37- 38",
+    "commands": [{
+      "id": "f179d5c4-d0c4-4111-9915-104de9d8482e",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5173/details/1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97173e38-12fa-4e90-a950-602e582301af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img1",
+      "targets": [
+        ["css=.img1", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/cabin1/mainCabin1.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efaa911f-090f-4cb3-a14f-3f6914e57bc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img2",
+      "targets": [
+        ["css=.img2", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/cabin1/dfaa8d12-f3cf-48d7-b0bd-b7f923c7789a.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf0d4cc-2a65-45d6-b282-45358698a8b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img3",
+      "targets": [
+        ["css=.img3", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/cabin1/b1726498-95c5-47dd-829a-f23e8aacd93a.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[2]/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c18a74f-5659-4470-80d0-5f4bfcc87dcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img5",
+      "targets": [
+        ["css=.img5", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/cabin1/4e911a89-23ca-4c53-afbf-6783b998bdbb.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[2]/img[4]", "xpath:idRelative"],
+        ["xpath=//img[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec6d56c7-be56-4abd-a2c6-2185f20c258c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img4",
+      "targets": [
+        ["css=.img4", "css:finder"],
+        ["xpath=//img[contains(@src,'https://travel-bee-images.s3.us-east-2.amazonaws.com/products/cabin1/91ea4bc6-72b2-49d9-9da3-34c11aed5181.webp')]", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[2]/img[3]", "xpath:idRelative"],
+        ["xpath=//img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fb6e22c-e227-4fa1-babe-a49b04dfc48f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más fotos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f3af11-9a08-4591-a7d5-5282ecb85922",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Gallery",
+      "targets": [
+        ["css=.Gallery", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "252dbbd9-be7a-4bf0-b902-9c97423e0152",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más fotos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cff81f9a-e4f4-411f-838b-198829a188a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más fotos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff7d5ed-44f4-4dd8-bc66-fc6166422cfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-eDvSVe:nth-child(1) > .sc-hLBbgP",
+      "targets": [
+        ["css=.sc-eDvSVe:nth-child(1) > .sc-hLBbgP", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02b42529-4336-4f9d-b555-70e982af9fb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Description > p",
+      "targets": [
+        ["css=.Description > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[4]/p", "xpath:idRelative"],
+        ["xpath=//div[4]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'El A-Frame hueco Dunlap es un A-Frame de lujo personalizado completado en 2021. El A-Frame tiene capacidad para 10 personas con 3 dormitorios y un pintoresco loft lleno de ventanas con capacidad para 4 personas.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71f42930-f85f-40ee-a843-fe260b96b07a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.Description > p",
+      "targets": [
+        ["css=.Description > p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[4]/p", "xpath:idRelative"],
+        ["xpath=//div[4]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'El A-Frame hueco Dunlap es un A-Frame de lujo personalizado completado en 2021. El A-Frame tiene capacidad para 10 personas con 3 dormitorios y un pintoresco loft lleno de ventanas con capacidad para 4 personas.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c665f228-3085-49e4-8a58-c2968dc4d656",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Description > p",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccef668d-8222-4e48-8ad2-7a73c664b26f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Policies > h2",
+      "targets": [
+        ["css=.Policies > h2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[6]/h2", "xpath:idRelative"],
+        ["xpath=//div[6]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Qué tenes que saber')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "040a5955-0e52-41fa-80ab-a8ea54f8843a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//h2[contains(.,'Cabaña del bosque')]",
+      "targets": [
+        ["css=h2:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cabaña del bosque')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a752b5-c6b0-45d7-a325-510e15b887bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Amenities > h2",
+      "targets": [
+        ["css=.Amenities > h2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[5]/h2", "xpath:idRelative"],
+        ["xpath=//div[5]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Amenities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05fe397d-f06e-4243-a165-d7021e84c1f7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Calendar > h2",
+      "targets": [
+        ["css=.Calendar > h2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[7]/h2", "xpath:idRelative"],
+        ["xpath=//div[7]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Calendario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f84eab8-b594-4dac-8be9-e6dd893da344",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.react-datepicker__day--031:nth-child(7)",
+      "targets": [
+        ["css=.react-datepicker__day--031:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[7]/div/div/div/div[3]/div[2]/div[5]/div[7]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[5]/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c227f95-ccfb-4fdb-a12f-e1d141211f13",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.ProductHeader svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f895c8ae-ce01-452c-a588-361193432055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cities",
+      "targets": [
+        ["css=.cities", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7cbaa9b-dbcb-4226-ad79-e6b505da02cc",
+      "comment": "",
+      "command": "type",
+      "target": "css=.cities",
+      "targets": [
+        ["css=.cities", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Rockbridge, Ohio, Estados Unidos"
+    }, {
+      "id": "46c233cd-6a73-4576-91dc-621bc728be41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anticon-search > svg",
+      "targets": [
+        ["css=.anticon-search > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "846c7f5b-7229-4d49-abf1-04e561029bc6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.ProductGrid",
+      "targets": [
+        ["css=.ProductGrid", "css:finder"],
+        ["xpath=//div[@id='root']/div/main/div[3]", "xpath:idRelative"],
+        ["xpath=//main/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30370a14-bb01-45fb-81af-948a6d24f503",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0cb1791b-aafd-48ba-9855-47e964163c0e"]
+  }],
+  "urls": ["http://127.0.0.1:5173/details/1"],
+  "plugins": []
+}
