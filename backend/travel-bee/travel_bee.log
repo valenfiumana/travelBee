@@ -1,0 +1,186 @@
+[2022-11-0414:17:41] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0414:18:07] [ DEBUG] [CityService:27] Saving new city: City{name='', country='USA'}
+[2022-11-0414:18:28] [ DEBUG] [CityService:27] Saving new city: City{name='null', country='USA'}
+[2022-11-0414:18:45] [ DEBUG] [CityService:48] Searching city by Id: 1
+[2022-11-0414:18:45] [ DEBUG] [CityService:50] The city with id: 1 was found
+[2022-11-0414:19:02] [ DEBUG] [CityService:48] Searching city by Id: 15
+[2022-11-0414:19:02] [ DEBUG] [CityService:54] The city with id: 15 was NOT found
+[2022-11-0414:19:09] [ DEBUG] [CityService:48] Searching city by Id: -2
+[2022-11-0414:19:09] [ DEBUG] [CityService:54] The city with id: -2 was NOT found
+[2022-11-0414:19:48] [ DEBUG] [CityService:48] Searching city by Id: 1
+[2022-11-0414:19:48] [ DEBUG] [CityService:50] The city with id: 1 was found
+[2022-11-0414:20:59] [ DEBUG] [CityService:48] Searching city by Id: 13
+[2022-11-0414:20:59] [ DEBUG] [CityService:54] The city with id: 13 was NOT found
+[2022-11-0414:21:10] [ DEBUG] [CityService:48] Searching city by Id: 1
+[2022-11-0414:21:10] [ DEBUG] [CityService:50] The city with id: 1 was found
+[2022-11-0414:21:17] [ DEBUG] [CityService:48] Searching city by Id: 15
+[2022-11-0414:21:17] [ DEBUG] [CityService:54] The city with id: 15 was NOT found
+[2022-11-0414:21:24] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0414:21:30] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0414:21:33] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0414:47:07] [ DEBUG] [ProductService:34] Saving new product
+[2022-11-0415:34:10] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0513:59:05] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0514:01:33] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0615:44:17] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0615:47:39] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0615:54:34] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0615:55:13] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0615:57:53] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0616:29:36] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0709:31:04] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0709:31:07] [ DEBUG] [CityService:48] Searching city by Id: 1
+[2022-11-0709:31:07] [ DEBUG] [CityService:50] The city with id: 1 was found
+[2022-11-0709:31:17] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0709:31:21] [ DEBUG] [CityService:48] Searching city by Id: 1
+[2022-11-0709:31:21] [ DEBUG] [CityService:50] The city with id: 1 was found
+[2022-11-0709:57:22] [ DEBUG] [ImageService:24] Saving new image: com.example.travelbee.entities.Image@464ac886
+[2022-11-0709:58:08] [ DEBUG] [ImageService:38] Images found:
+[2022-11-0710:24:03] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0710:27:08] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0710:33:48] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0710:37:27] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0710:37:32] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@47117221
+[2022-11-0710:39:04] [ DEBUG] [ImageService:40] Images found:
+[2022-11-0710:54:54] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0710:55:05] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@2d7b35ab
+[2022-11-0714:06:54] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0714:11:05] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@4260ccd8
+[2022-11-0714:11:09] [ DEBUG] [ImageService:40] Images found:
+[2022-11-0714:13:43] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@25037920
+[2022-11-0714:13:47] [ DEBUG] [ImageService:40] Images found:
+[2022-11-0714:31:06] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0714:48:16] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0714:48:35] [ DEBUG] [CityService:41] Cities found:
+[2022-11-0719:37:21] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@63cb8de0
+[2022-11-0719:39:43] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@3d355d2b
+[2022-11-0719:40:02] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@64818e4f
+[2022-11-0719:45:14] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@30c3ccb0
+[2022-11-0719:46:08] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@107472e
+[2022-11-0719:46:19] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@668c04c1
+[2022-11-0719:47:39] [ DEBUG] [ImageService:40] Images found:
+[2022-11-0719:56:29] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 1
+[2022-11-0719:56:44] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 2
+[2022-11-0719:59:09] [ DEBUG] [ProductService:77] Buscando productos con ciudad id: 1
+[2022-11-0719:59:24] [ DEBUG] [ProductService:77] Buscando productos con ciudad id: 2
+[2022-11-0811:15:24] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@7ff4b4b2
+[2022-11-0811:17:15] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:17:35] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@2d7b35ab
+[2022-11-0811:17:49] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@361436de
+[2022-11-0811:21:12] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:21:28] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@2a5a5f6f
+[2022-11-0811:23:17] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:23:32] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@1d8aa561
+[2022-11-0811:26:42] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:26:55] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@2ef4aecd
+[2022-11-0811:32:44] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:36:02] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:36:40] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@464b11e9
+[2022-11-0811:53:20] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0811:55:05] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0812:02:03] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@36bcc0a8
+[2022-11-0812:02:22] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0812:03:28] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0812:09:11] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-0812:10:40] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@4c67db66
+[2022-11-0812:10:56] [ DEBUG] [ImageService:26] Saving new image: com.example.travelbee.entities.Image@f81f20
+[2022-11-1014:56:23] [ DEBUG] [CityService:27] Saving new city: City{name='New York', country='USA'}
+[2022-11-1023:35:54] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:35:54] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:43:36] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:43:36] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:43:47] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 2
+[2022-11-1023:43:49] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 3
+[2022-11-1023:43:49] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 4
+[2022-11-1023:43:50] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 5
+[2022-11-1023:44:02] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:44:02] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:47:11] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:47:11] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:50:39] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:50:39] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:50:51] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:50:51] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:51:38] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:51:38] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:57:28] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1023:57:28] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:52:28] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:52:29] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:53:52] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:53:52] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:53:57] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:53:57] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:53:59] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:53:59] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:54:07] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1101:54:07] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1102:10:28] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1102:10:28] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1616:15:25] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1616:15:27] [ DEBUG] [CityService:41] Cities found:
+[2022-11-1617:25:11] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:25:11] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:27:47] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:27:47] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:27:59] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 2
+[2022-11-1617:28:03] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 3
+[2022-11-1617:41:13] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:41:13] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:41:13] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 3
+[2022-11-1617:41:13] [ DEBUG] [ProductService:71] Buscando productos con categoria id: 3
+[2022-11-1617:42:03] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-1617:42:03] [ DEBUG] [CityService:41] Cities found: 
+[2022-11-2512:34:00] [ INFO ] [UserDetailsServiceImpl:110] Los usuarios se listaron correctamente
+[2022-11-2512:36:11] [ INFO ] [RoleService:38] Saving role ROLE_USER
+[2022-11-2512:36:13] [ INFO ] [RoleService:38] Saving role ROLE_ADMIN
+[2022-11-2512:37:06] [ INFO ] [UserDetailsServiceImpl:110] Los usuarios se listaron correctamente
+[2022-11-2512:37:18] [ INFO ] [RoleService:50] Roles listed correctly
+[2022-11-2512:56:47] [ INFO ] [RoleService:50] Roles listed correctly
+[2022-11-2512:57:43] [ INFO ] [UserDetailsServiceImpl:110] Los usuarios se listaron correctamente
+[2022-11-2513:06:00] [ INFO ] [UserDetailsServiceImpl:96] El usuario se agregó correctamente
+[2022-11-2513:09:38] [ INFO ] [UserDetailsServiceImpl:71] Se inició sesión correctamente
+[2022-11-2513:09:38] [ INFO ] [UserDetailsServiceImpl:71] Se inició sesión correctamente
+[2022-11-2513:59:32] [ INFO ] [UserDetailsServiceImpl:75] El usuario se agregó correctamente
+[2022-11-2514:00:41] [ INFO ] [UserDetailsServiceImpl:89] Los usuarios se listaron correctamente
+[2022-11-2514:07:00] [ INFO ] [RoleService:38] Saving role ROLE_ADMIN
+[2022-11-2514:07:02] [ INFO ] [RoleService:38] Saving role ROLE_USER
+[2022-11-2514:07:06] [ INFO ] [UserDetailsServiceImpl:75] El usuario se agregó correctamente
+[2022-11-2809:13:40] [ INFO ] [UserDetailsServiceImpl:89] Los usuarios se listaron correctamente
+[2022-11-2809:21:58] [ INFO ] [UserDetailsServiceImpl:75] El usuario se agregó correctamente
+[2022-11-2809:23:12] [ INFO ] [UserDetailsServiceImpl:75] El usuario se agregó correctamente
+[2022-12-0123:47:53] [ INFO ] [UserDetailsServiceImpl:75] El usuario se agregó correctamente
+[2022-12-0123:49:58] [ INFO ] [UserDetailsServiceImpl:89] Los usuarios se listaron correctamente
+[2022-12-0123:55:27] [ INFO ] [UserDetailsServiceImpl:75] El usuario se agregó correctamente
+[2022-12-0200:22:59] [ DEBUG] [EmailSenderService:44] Email enviado a: valen.fiumana@gmail.com
+[2022-12-0218:17:28] [ DEBUG] [EmailSenderService:44] Email enviado a: valen.fiumana@gmail.com
+[2022-12-0218:24:21] [ DEBUG] [EmailSenderService:44] Email enviado a: valen.fiumana@gmail.com
+[2022-12-0218:44:02] [ INFO ] [UserDetailsServiceImpl:80] The user with email valen.fiumana@gmail.com was succesfully added
+[2022-12-0218:44:17] [ DEBUG] [EmailSenderService:44] Email sent to: valen.fiumana@gmail.com
+[2022-12-1212:24:37] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1212:25:25] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1212:25:46] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1213:39:35] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1213:40:44] [ DEBUG] [EmailSenderService:44] Email sent to: segusi@gmail.com
+[2022-12-1213:40:45] [ DEBUG] [EmailSenderService:44] Email sent to: segusi@gmail.com
+[2022-12-1213:40:47] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1213:48:56] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1213:49:07] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1214:05:47] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1214:06:08] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1214:06:28] [ DEBUG] [ProductService:80] Buscando productos con categoria id: 2
+[2022-12-1214:08:34] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1214:08:54] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1214:09:11] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1214:09:16] [ DEBUG] [ProductService:80] Buscando productos con categoria id: 2
+[2022-12-1214:09:30] [ DEBUG] [ProductService:80] Buscando productos con categoria id: 2
+[2022-12-1214:09:50] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1415:37:42] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1415:38:40] [ INFO ] [UserDetailsServiceImpl:80] The user with email seguuu@gmail.com was succesfully added
+[2022-12-1415:38:45] [ INFO ] [UserDetailsServiceImpl:80] The user with email seguuu@gmail.com was succesfully added
+[2022-12-1415:38:47] [ DEBUG] [EmailSenderService:44] Email sent to: seguuu@gmail.com
+[2022-12-1415:38:49] [ DEBUG] [EmailSenderService:44] Email sent to: seguuu@gmail.com
+[2022-12-1415:40:26] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1416:42:05] [ DEBUG] [CityService:41] Cities found: 
+[2022-12-1416:42:46] [ INFO ] [UserDetailsServiceImpl:80] The user with email segudellitto@gmail.com was succesfully added
+[2022-12-1416:42:52] [ DEBUG] [EmailSenderService:44] Email sent to: segudellitto@gmail.com
